@@ -1,0 +1,19 @@
+normal
+without:   execution time=0:00:00.005887
+l1:     execution time=0:00:00.068315
+l2:     execution time=0:00:00.201519
+
+
+attack with fault in l1:
+
+without:   execution time=0:00:00.003599
+l1: execution time=0:00:00.019843
+l2: execution time=0:00:00.146572
+
+
+attack with fault in l2:
+
+without: execution time=0:00:00.002941
+l1:execution time=0:00:00.135850
+l2:execution time=0:00:00.132524
+
