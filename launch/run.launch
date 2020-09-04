@@ -1,0 +1,4 @@
+<launch>
+		<node name="ids_node" pkg="/ros_ids" type="script/ids_service.py" output="screen" cwd='node'/>
+		<node name="run_node" pkg="/ros_ids" type="script/run.py" output="screen" cwd='node' />
+</launch>
